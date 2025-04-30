@@ -33,7 +33,7 @@ content:
           
             - Innovated Query-centric encoding and two-stage decoding architecture, enhancing prediction accuracy by 30%
             
-            - Optimized model inference latency, reducing QCNet推理延迟 from 22.5ms to under 3ms via pruning
+            - Optimized model inference latency, reducing QCNet inference latency from 22.5ms to under 3ms via pruning
             
             - Led quantization optimization to limit precision loss within 5%, enabling embedded deployment on J6 platform  
 
