@@ -79,7 +79,7 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Tsinghua University1
+        title: Tsinghua University
         sub_title: Master's Degree, Instrumentation and Measurement Engineering
         caption: 2017 -- 2020
         quote: >
