@@ -19,6 +19,54 @@ content:
   - title: Experience
     layout: list
     content:
+        - title: Work Experience
+    layout: list
+    content:
+      - layout: right
+        title: Horizon Robotics - Software Platform Product Line, Beijing
+        sub_title: Algorithm Expert, Prediction & Planning Department
+        caption: January 2024 – Present
+        link: 
+        quote: ""
+        description: |
+          (1) Prediction Module Lead
+          
+            - Innovated Query-centric encoding and two-stage decoding architecture, enhancing prediction accuracy by 30%
+            
+            - Optimized model inference latency, reducing QCNet推理延迟 from 22.5ms to under 3ms via pruning
+            
+            - Led quantization optimization to limit precision loss within 5%, enabling embedded deployment on J6 platform  
+
+          (2) Prediction Post-Processing Module Lead  
+            
+            - Built end-to-end algorithm systems covering 20+ scenarios (congestion, curves, narrow roads, etc.), improving precision/recall from 0.12/0.26 to 0.92/0.96  
+            
+            - Optimized lane-keeping and dynamic cut-in scenarios to resolve close-proximity interaction challenges  
+
+          (3) Detour Decision Module Lead  
+            
+            - Developed "Critical Obstacle Screening-Game Region Modeling-Multimodal Trajectory Evaluation" framework, increasing decision efficiency by 40% (latency ≤50ms)  
+            
+            - Proposed multi-dimensional cost model balancing safety and efficiency, reducing collision risks by 35% in typical scenarios  
+
+          (4) End-to-End Model R&D Lead  
+            
+            **Base Solution (Horizon J6M Chip)**:
+            
+            - Developed BEV 6V end-to-end model, achieving ADE 0.72/FDE 1.884 in NuPlan open-loop evaluation, improving planning accuracy by 15%  
+            
+            - Optimized perception tasks via staged training, achieving soft IoU of 0.655 (lane lines)/0.882 (drivable areas), 15% above baselines
+            
+            - Achieved 89.34% drivable area compliance and 96.48% scenario pass rate in closed-loop testing, facilitating urban road deployment  
+
+            **Large Solution (Horizon J6P Chip, UniAD Version)**:
+            
+            - Led development of CVPR Best Paper model UniAD, realizing full-stack perception-prediction-planning integration via Transformer, with 66.84M parameters and 57.46 FPS inference efficiency (21.2% improvement) on J6P  
+            
+            - Reduced collision rate by 59.91% and traffic light violation rate by 10.55% via IL+RL hybrid training, meeting mass production standards  
+            
+            - Cross-team completion of 1000-hour dataset construction, improving urban generalization by 40% and shortening deployment cycle by 30%  
+  
       - layout: right
         title: Xiaopeng - Autonomous Driving Center, Shanghai
         sub_title: Senior Algorithm Engineer
