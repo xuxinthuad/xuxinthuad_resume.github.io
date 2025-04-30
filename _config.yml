@@ -2,143 +2,100 @@
 repository: xuxin/resume
 version: 2
 name: Xin Xu
-title: Computer Science and Technology (Intelligent Science and Technology)
-email: xuxinpkucs@gmail.com
-phone: (+86) 13407228245
+title: Algorithm Expert
+email: xuxinthu@gmail.com
+phone: (+86) 15600367533
 darkmode: false
+github_username:  xuxinthu
+linkedin_username: david-xu-1a298828b
 about_profile_image: images/xuxin_me.jpg
 about_content: >
-  Ph.D. candidate in Artificial Intelligence at the School of
-  Intelligence Science and Technology, Peking University (2020–2025), under the
-  supervision of Prof. Zhouchen Lin (IEEE Fellow). Specializing in large
-  language models (LLMs) and sequence modeling, I have pioneered groundbreaking
-  architectures to revolutionize efficient long-context reasoning and
-  spatiotemporal intelligence.
+   I am currently serving as a Senior Algorithm Engineer at Xiaopeng Autonomous Driving Center, where I have the privilege of contributing significantly to the advancement of autonomous driving technology. My academic journey includes obtaining a Master's degree from the Department of Precision Instruments at Tsinghua University, following the completion of my Bachelor of Engineering (B.Eng) degree in the Department of Automatic Control at Shandong University in 2017.
 
-  As a trailblazer in adaptive sequence modeling, I developed the MixCon hybrid architecture, integrating control theory-inspired feedback mechanisms with Transformer layers and dynamic MoE routing. This innovation enables single-GPU processing of 128K-token sequences, achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs, while setting new SOTA on HellaSwag (89.3) and WinoGrande (87.6) with 63% reduced memory overhead. My work on Vision Conba (ViC) bridges local visual details and global semantics through a selective bidirectional state model, achieving an 11.9% leap in ImageNet top-1 accuracy (85.4%) and 58.9 box AP on COCO with 30% fewer FLOPs than state-of-the-art baselines.
+   My professional journey commenced as an Algorithm Engineer at JD X Research Department, where I immersed myself in cutting-edge projects that laid a strong foundation for my career. Building on that invaluable experience, my current role at Xiaopeng Autonomous Driving Center empowers me to delve deeper into the realms of machine learning, with a primary focus on their applications in the field of autonomous driving.
 
-  For video and 4D perception, I designed Video Conba to integrate 3D convolutional dynamics with control-theoretic stability, boosting Kinetics-400 accuracy to 82.1% (2.0% over ViT-L) with 45% less memory. My Conba4D framework further decouples spatiotemporal modeling for efficient 4D point cloud processing, achieving 93.23% accuracy on MSR-Action3D (SOTA) while enabling real-time inference at 58 FPS—5.36× faster than prior art—with 87.5% reduced GPU memory usage.
+   These cumulative experiences have not only sharpened my skills but also ignited a profound passion for research and development in these domains. I am wholeheartedly dedicated to pushing the boundaries of knowledge and technology, with the ultimate goal of driving innovation and delivering groundbreaking solutions in the world of autonomous driving.
 
-  Holding a B.Eng. in Automatic Control from Shandong University (Top 1%) and prior research at Tsinghua University, my work uniquely merges theoretical advancements in state-space models and hybrid expert systems with practical LLM/vision applications, driving breakthroughs in efficiency, scalability, and multimodal understanding.
 content:
-  - title: Internship
+  - title: Experience
     layout: list
     content:
       - layout: right
-        title: Baidu MEG - Large Model NLP Algorithms
-        quote: >
-          "Redefining industrial recommendation systems through cascaded
-          representation learning and generative retrieval"
-        description: >
-          - Core contributor of COBRA framework proposing sparse-dense
-          cascaded representation and RQ-VAE, boosting CVR by 3.6% and ARPU by
-          4.15%<br> - Innovated dynamic sparse ID-guided dense vector refinement
-          mechanism achieving 12.3% NDCG@10 improvement and 9.8% CTR gain over
-          Google TIGER<br> - Developed coarse-to-fine generative retrieval
-          pipeline reducing inference latency to 32ms (-41%) with 24k QPS per
-          node (30× throughput increase)
+        title: Xiaopeng - Autonomous Driving Center, Shanghai
+        sub_title: Senior Algorithm Engineer
+        caption: September 2022 – Present
+        link: https://www.xiaopeng.com/about.html
+        quote: > 
+
+        description: | # this will include new lines to allow paragraphs
+          (1) Responsible for Xiaopeng P5 mass production model prediction module (CNGP)
+
+            - Delivered high-priority issues in OTA4, reducing the rate of false deceleration by over 20% and decreasing the takeover rate by over 30%.
+
+            - Enriched a simulation test dataset with over 3000 different scenarios, including intersections, roundabouts, and merge scenarios.
+
+          (2) Responsible for Xiaopeng G9 mass production model prediction module (CNGP, HNGP 2.0)
+
+            - Achieved safety takeovers close to 1 per thousand kilometers for HNGP 2.0 and reduced false decelerations to nearly 4 per thousand kilometers.
+
+            - Implemented interactive framework for small intersection prediction algorithms, increasing the vehicle's passing capability at small intersections by over 30%.
+
+            - Introduced exit prediction and behavior imitation prediction models, resulting in safety takeovers occurring less than 1 per hundred kilometers.
+
+          (3) Responsible for Xiaopeng G9 mass production model prediction module (XNGP 2.0)
+
+            - Implemented features such as lane optimization at unmarked intersections and merge predictions, achieving a vehicle's passing capability comparable to CNGP at 80%.
+
+            - Continuously improved algorithms for scenarios including intersections, roundabouts, small intersections, and cruise control in OTA3, addressing algorithm glitches and ensuring successful deployments in Shanghai and Beijing.
+
+            - Completed crucial feature enhancements and algorithm glitch fixes in the XNGP 2.0 sprint plan, resulting in a reduction of takeover rates and false deceleration rates by over 20%.
+
       - layout: right
-        title: Baidu TPG - X1 Turbo Development
-        quote: >
-          "Pioneering closed-loop training-generation framework for
-          industrial-scale LLM optimization"
-        description: >
-          - Architected MixCon integration into X1 Turbo establishing
-          "Train-Generate-Feedback-Enhance" loop, accelerating CLUE benchmark
-          inference by 37%<br> - Achieved 5.4× training throughput and 8×
-          inference speedup over 4.5 Turbo with 40% VRAM reduction<br> -
-          Enhanced logical reasoning surpassing DeepSeek R1/V3 through
-          self-feedback augmented MoE training<br> - Collaborated cross-team to
-          deploy X1 Turbo with 0.83s latency (-40% vs 4.5 Turbo) and 25% API
-          cost of competitors
-  - title: Research Experience
-    layout: list
-    content:
-      - layout: right
-        title: MixCon Architecture for Long-Context Modeling
-        quote: >
-          "Redefining efficiency frontiers in long-sequence processing through
-          control-inspired adaptive mechanisms"
-        description: >
-          - Proposed Conba architecture integrating control theory principles
-          (feedback loops, adaptive gain) with sequence modeling, achieving 40%
-          faster convergence than Transformer baselines<br>
+        title: JD Group - X Research Department, Beijing
+        sub_title: Algorithm Engineer
+        caption: August 2020 – August 2022
+        link: https://neuhub.jd.com/brand/1
+        quote: > 
 
-          - Designed MixCon hybrid architecture combining Conba layers, Transformer blocks, and dynamic MoE routing, enabling 128K-token context processing on single GPUs<br>
+        description: | # this will include new lines to allow paragraphs
+          (1) Cutting-Edge Algorithm Research
 
-          - Implemented hardware-aware kernel optimizations achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs<br>
+            - Published 11 international top-tier/high-level academic papers during my tenure
 
-          - Attained SOTA on HellaSwag (89.3) and WinoGrande (87.6) while reducing memory overhead by 63% through selective state updates
-      - layout: right
-        title: Vision Conba (ViC) for Multimodal Understanding
-        quote: >
-          "Bridging local-global visual semantics through biologically inspired
-          state propagation"
-        description: >
-          - Developed SBSM module enabling simultaneous local feature
-          preservation and global context aggregation<br>
+            - Filed 66 invention patents during my tenure, with 7 patents currently granted
 
-          - Achieved 85.4% ImageNet top-1 accuracy (11.9% absolute improvement) via adaptive receptive field control<br>
+            - Served as a reviewer for over ten international top-tier conferences/journals (CVPR 2022, ICML 2022, etc.)
 
-          - Designed shift-equivariant Conba blocks reducing texture bias by 38% compared to standard CNNs<br>
+          (2) Responsible for the Prediction Trajectory Prediction Module
 
-          - Extended to detection/segmentation tasks: ViC-T attained 58.9 box AP on COCO (4.2 gain over Swin-L) with 30% fewer FLOPs
-      - layout: right
-        title: Video Conba for Spatiotemporal Modeling
-        quote: >
-          "Temporal reasoning meets control-theoretic stability in video
-          architectures"
-        description: >
-          - Created 3D-Conba blocks combining causal/non-causal temporal
-          modeling with spatial SSMs<br>
+            - Utilized deep learning methods (LSTM) combined with rules to predict the future movement trajectories of obstacles, resulting in the deployment of the ROVER 5.0 model and a 1.5% improvement in the ADE metric for daily simulation tasks.
 
-          - Introduced differential positional encoding adapting to motion magnitudes (3.2% accuracy boost)<br>
+            - Enhanced efficiency by conducting experiments for over 200 models in a short period, reducing training time from 7 days to 8 hours.
 
-          - Achieved 82.1% on Kinetics-400 (2.0% over ViT-L) with 45% less memory consumption<br>
+            - Combined LSTM networks with VectorNet, further improving the ADE metric by 2%.
 
-          - Demonstrated 6.1% superiority over ViS4mer in 10-minute video understanding tasks through multiscale state compression
-      - layout: right
-        title: Conba4D for 4D Perception
-        quote: >
-          "Spatiotemporal intelligence through decoupled hierarchical state spaces"
-        description: >+
-          - Developed disentangled spatial-temporal Conba modules enabling
-          efficient 4D processing<br>
 
-          - Introduced dynamic kernel adjustment reducing GPU memory by 87.5% in 256-frame sequences<br>
-
-          - Achieved 93.23% on MSR-Action3D (SOTA) via learnable spatiotemporal scanning strategies<br>
-
-          - Enabled real-time 4D perception at 58 FPS (5.36× speedup) while maintaining 94% of offline accuracy
-
-              
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Peking University
-        sub_title: Ph.D. in Computer Science and Technology (Intelligent Science and
-          Technology)
-        caption: 2020 -- 2025
-        quote: ""
-        description: >
-          Research Focus: Large Language Models (LLMs), Sequence Modeling,
-          State Space Models
-      - layout: top-right
         title: Tsinghua University
         sub_title: Master's Degree, Instrumentation and Measurement Engineering
         caption: 2017 -- 2020
-        quote: ""
-        description: >
-          Research Focus: Machine Learning, Deep Learning, Natural Language
-          Processing
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Research Focus: Machine Learning, Deep Learning, Computer Vision
+
       - layout: top-right
         title: Shandong University
         sub_title: Bachelor's Degree, Measurement and Control Technology and Instruments
         caption: 2013 -- 2017
-        quote: ""
-        description: >
-          Research Focus: Control Theory and Control Engineering, Computer Vision
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Research Focus: Control Theory and Control Engineering, Robotics
+
   - title: Papers
     layout: text
     content: >
@@ -181,6 +138,7 @@ content:
       - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. 
 
       - Qi Kong, Xin Xu (co-first author), Liangliang Zhang. MEMA-NAS: Memory-Efficient Multi-Agent Neural Architecture Search, PRCV 2021.
+
   - title: Patents
     layout: text
     content: |
