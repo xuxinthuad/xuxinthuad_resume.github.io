@@ -4,18 +4,17 @@ version: 2
 name: Xin Xu
 title: Algorithm Expert
 email: xuxinthu@gmail.com
-phone: (+86) 15600367533
+phone: (+86) 13121058823
 darkmode: false
 github_username:  xuxinthu
 linkedin_username: david-xu-1a298828b
 about_profile_image: images/xuxin_me.jpg
 about_content: >
-   I am currently serving as a Senior Algorithm Engineer at Xiaopeng Autonomous Driving Center, where I have the privilege of contributing significantly to the advancement of autonomous driving technology. My academic journey includes obtaining a Master's degree from the Department of Precision Instruments at Tsinghua University, following the completion of my Bachelor of Engineering (B.Eng) degree in the Department of Automatic Control at Shandong University in 2017.
+   I am currently an Algorithm Expert in the Prediction and Planning Department at Horizon Robotics' Software Platform Product Line in Beijing, where I lead key initiatives in autonomous driving prediction and planning technologies. Prior to this, I served as a Senior Algorithm Engineer at Xiaopeng Autonomous Driving Center (2022–2023), contributing to the mass production of advanced driver-assistance systems, and began my career as an Algorithm Engineer at JD X Research Department (2020–2022), focusing on cutting-edge AI research for robotics.
+   
+   Holding a Master’s degree in Instrumentation and Measurement Engineering from Tsinghua University (2017–2020) and a Bachelor of Engineering in Measurement and Control Technology from Shandong University (2013–2017), my work bridges academic rigor with industrial innovation, specializing in machine learning, deep learning, and their applications in autonomous driving.
 
-   My professional journey commenced as an Algorithm Engineer at JD X Research Department, where I immersed myself in cutting-edge projects that laid a strong foundation for my career. Building on that invaluable experience, my current role at Xiaopeng Autonomous Driving Center empowers me to delve deeper into the realms of machine learning, with a primary focus on their applications in the field of autonomous driving.
-
-   These cumulative experiences have not only sharpened my skills but also ignited a profound passion for research and development in these domains. I am wholeheartedly dedicated to pushing the boundaries of knowledge and technology, with the ultimate goal of driving innovation and delivering groundbreaking solutions in the world of autonomous driving.
-
+   These experiences have honed my ability to design efficient, robust algorithms for real-world autonomy challenges. I am deeply passionate about advancing AI-driven mobility solutions and leveraging cross-disciplinary expertise to push the frontiers of autonomous driving technology
 content:
   - title: Experience
     layout: list
